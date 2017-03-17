@@ -19,10 +19,6 @@ header {
   z-index: 5;
   width: 100%;
 }
-.container {
-  display: flex;
-  align-items: center;
-}
 a {
   color: seashell;
 }
@@ -34,4 +30,37 @@ nav {
 header img {
   height: 50px;
   padding-left: 10px;
+}
+
+
+
+.flexcontainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+#mission .content {
+    margin: auto;
+    background-color: black;
+    width: 100%;
+}
+div {
+    display: block;
+  }
+
+#mission {
+  background-image: url(../resources/img/img-mission-background.jpg);
+  background-position: center;
+  height: 700px;
+  padding-top: 70px;
+}
+
+
+h2,
+h4 {
+  padding: 10px;
+  margin: 0 0;
+  font-weight: bold;
+  text-align: center;
 }
