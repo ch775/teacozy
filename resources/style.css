@@ -72,8 +72,32 @@ h4 {
 }
 #boxofitems {
   padding-top: 30px;
+  padding-bottom: 70px;
 }
-span {
+span .item{
   text-align: center;
   display: block;
+}
+
+.locations {
+  background-image: url(../resources/img/img-locations-background.jpg);
+  height: 500px;
+  padding-bottom: 75px;
+}
+
+.locations h2 {
+  padding-top: 70px;
+}
+
+.location {
+  background-color: black;
+  margin: 40px;
+  flex-basis: 250px;
+  text-align: center;
+  opacity: 1;
+}
+
+#locationbox {
+  justify-content: center;
+  margin-top: 15px;
 }
