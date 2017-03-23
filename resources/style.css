@@ -107,11 +107,21 @@ span .item{
 
 .copyright {
   padding-left: 20px;
+  padding-bottom: 20px;
 }
-.contact {
+#contact {
   height: 200px;
+  width: 1200px;
+  margin: auto;
+  padding-top: 30px;
 }
-h5 {
+h2 {
   font-weight: bold;
   display: block;
+}
+h5 {
+  text-align: center;
+}
+.copyright .left {
+  text-align: left;
 }
